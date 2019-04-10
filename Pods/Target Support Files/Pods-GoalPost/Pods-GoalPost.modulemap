@@ -1,0 +1,6 @@
+module Pods_GoalPost {
+  umbrella header "Pods-GoalPost-umbrella.h"
+
+  export *
+  module * { export * }
+}
