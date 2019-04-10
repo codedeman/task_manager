@@ -13,10 +13,8 @@
 		9D1AE67422267E0B008B6455 /* Constrants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1AE67322267E0B008B6455 /* Constrants.swift */; };
 		9D384352221D9A2E00F26468 /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D384351221D9A2E00F26468 /* FinishGoalVC.swift */; };
 		9D387B972237DC4F0045CEB9 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D387B962237DC4F0045CEB9 /* DataService.swift */; };
-		9D47429B223B9CEF00981A56 /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D47429A223B9CEF00981A56 /* BackTableVC.swift */; };
 		9D47429E223BDDC300981A56 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D47429D223BDDC300981A56 /* CurrentUser.swift */; };
 		9D4742A0223BE58C00981A56 /* UserProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D47429F223BE58C00981A56 /* UserProfileCell.swift */; };
-		9D4C4A112237A2AE001F0329 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C4A102237A2AD001F0329 /* SWRevealViewController.m */; };
 		9D535D2C222C24EB00633991 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D535D2B222C24EB00633991 /* Reminder.swift */; };
 		9D5A592D2238034900D34CC8 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A592C2238034900D34CC8 /* InsetTextField.swift */; };
 		9D5A592F22380E3900D34CC8 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A592E22380E3900D34CC8 /* ShadowView.swift */; };
@@ -112,12 +110,8 @@
 		9D1AE67322267E0B008B6455 /* Constrants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constrants.swift; sourceTree = "<group>"; };
 		9D384351221D9A2E00F26468 /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 		9D387B962237DC4F0045CEB9 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		9D47429A223B9CEF00981A56 /* BackTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
 		9D47429D223BDDC300981A56 /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
 		9D47429F223BE58C00981A56 /* UserProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileCell.swift; sourceTree = "<group>"; };
-		9D4C4A0E2237A2AB001F0329 /* GoalPost-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoalPost-Bridging-Header.h"; sourceTree = "<group>"; };
-		9D4C4A0F2237A2AD001F0329 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		9D4C4A102237A2AD001F0329 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		9D535D2B222C24EB00633991 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		9D5A592C2238034900D34CC8 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		9D5A592E22380E3900D34CC8 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
@@ -257,12 +251,9 @@
 		9D5B27A5221C449D00F6BC51 /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
-				9D4C4A0F2237A2AD001F0329 /* SWRevealViewController.h */,
-				9D4C4A102237A2AD001F0329 /* SWRevealViewController.m */,
 				9D5B27A6221C450900F6BC51 /* UIControllerExt.swift */,
 				9D5B27A8221C4C2C00F6BC51 /* UIViewExt.swift */,
 				9D5B27AA221C571C00F6BC51 /* UIButtonExt.swift */,
-				9D4C4A0E2237A2AB001F0329 /* GoalPost-Bridging-Header.h */,
 				9DC466DE2243FFC800901C8C /* RoundedButton.swift */,
 			);
 			path = Extentions;
@@ -347,7 +338,6 @@
 				9DFBA4BA22364BEC0039E2EA /* ProcessVC.swift */,
 				9D98680422390FA600656C10 /* AuthVC.swift */,
 				9D9868062239420100656C10 /* UserProfileVC.swift */,
-				9D47429A223B9CEF00981A56 /* BackTableVC.swift */,
 				9D8A2980223F403F00C65187 /* CalendarVC.swift */,
 				9D8A2982223F4DD500C65187 /* AboutVC.swift */,
 				9DC466DC2243F96E00901C8C /* CreateAccountVC.swift */,
@@ -610,14 +600,12 @@
 				9D5B27A9221C4C2C00F6BC51 /* UIViewExt.swift in Sources */,
 				9D5A592D2238034900D34CC8 /* InsetTextField.swift in Sources */,
 				9D8A2983223F4DD500C65187 /* AboutVC.swift in Sources */,
-				9D47429B223B9CEF00981A56 /* BackTableVC.swift in Sources */,
 				9DE62D2B225464D900B6E13E /* FeedCell.swift in Sources */,
 				9D93EE6C221BBB0800CE3B73 /* GoalVC.swift in Sources */,
 				9DFBA4BB22364BEC0039E2EA /* ProcessVC.swift in Sources */,
 				9DC466DD2243F96E00901C8C /* CreateAccountVC.swift in Sources */,
 				9D4742A0223BE58C00981A56 /* UserProfileCell.swift in Sources */,
 				9DA3A464224CCCAF008FFC27 /* ImageViewController.swift in Sources */,
-				9D4C4A112237A2AE001F0329 /* SWRevealViewController.m in Sources */,
 				9DEA31742255CFB900C7636F /* GroupCell.swift in Sources */,
 				9D98680522390FA600656C10 /* AuthVC.swift in Sources */,
 				9D93EE6A221BBB0800CE3B73 /* AppDelegate.swift in Sources */,
@@ -832,7 +820,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PBBT599Q77;
 				INFOPLIST_FILE = GoalPost/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -845,7 +833,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_ENABLE_BATCH_MODE = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "GoalPost/Extentions/GoalPost-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -861,7 +848,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PBBT599Q77;
 				INFOPLIST_FILE = GoalPost/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -872,7 +859,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_ENABLE_BATCH_MODE = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "GoalPost/Extentions/GoalPost-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

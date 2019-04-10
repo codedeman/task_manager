@@ -1,10 +1,11 @@
 //
 //  GroupCell.swift
-//  breakpoint
+
+//  GoalPost
 //
-//  Created by Caleb Stultz on 7/25/17.
-//  Copyright © 2017 Caleb Stultz. All rights reserved.
-//
+//  Created by Kien on 3/15/19.
+//  Copyright © 2019 Kien. All rights reserved.
+
 
 import UIKit
 

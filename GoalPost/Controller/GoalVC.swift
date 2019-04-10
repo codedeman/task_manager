@@ -22,12 +22,11 @@ class GoalVC: UIViewController {
     @IBOutlet var tableVIew: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("your process\(String(describing: goal?.goalProgress))")
-        if self.revealViewController() != nil {
-//            menuButton.target =  self.revealViewController()
-//            menuButton.action = "revealToggle:"
-            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        }
+//        if self.modalViewController != nil {
+////            menuButton.target =  self.revealViewController()
+////            menuButton.action = "revealToggle:"
+//            self.view.addGestureRecognizer(self.modalViewController.panGestureRecognizer())
+//        }
         
     
         

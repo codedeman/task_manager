@@ -1242,6 +1242,7 @@
                         <viewLayoutGuide key="safeArea" id="zvc-4A-6yU"/>
                     </view>
                     <connections>
+                        <outlet property="createButton" destination="KRE-fj-AFZ" id="ZaG-02-M5P"/>
                         <outlet property="emailTxt" destination="OeA-Gr-Pqh" id="o9a-9p-hwL"/>
                         <outlet property="passTxt" destination="su1-W1-eTp" id="aYH-nA-Ws0"/>
                         <outlet property="userImg" destination="uu5-ir-OgE" id="2Ll-Uz-YG2"/>
@@ -1252,7 +1253,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OAO-ch-4y2" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="LDZ-nf-jTq" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="5481" y="-27"/>
+            <point key="canvasLocation" x="5068" y="-21"/>
         </scene>
         <!--CameraVC-->
         <scene sceneID="a9i-Zt-pVU">

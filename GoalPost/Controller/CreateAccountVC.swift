@@ -15,9 +15,12 @@ class CreateAccountVC: UIViewController {
     @IBOutlet weak var emailTxt: UITextField!
     @IBOutlet weak var passTxt: UITextField!
     @IBOutlet weak var userImg: UIImageView!
+    
+    @IBOutlet var createButton: RoundedButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        createButton.bindToKeyboard()
+//        createButton.keyboardWillChange(<#T##notification: NSNotification##NSNotification#>)
         // Do any additional setup after loading the view.
     }
     
