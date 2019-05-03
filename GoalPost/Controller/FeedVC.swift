@@ -23,9 +23,9 @@ class FeedVC: UIViewController,NVActivityIndicatorViewable {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        
+        startAnimating()
         super.viewWillAppear(animated)
-        DispatchQueue.main.asyncAfter(deadline: .now()+2, qos: .unspecified, execute: {
+        DispatchQueue.main.asyncAfter(deadline: .now()+3, qos: .unspecified, execute: {
             self.self.startAnimating()
             DataService.instance.getAllFeedMessages { (returnedMessagesArray) in
                 self.messageArray = returnedMessagesArray.reversed()

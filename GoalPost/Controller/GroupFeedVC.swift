@@ -27,13 +27,19 @@ class GroupFeedVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.bindToKeyboard()
+        sendBtn.bindToKeyboard()
         sendBtnView.bindToKeyboard()
+        membersLbl.bindToKeyboard()
+        messageTextField.bindToKeyboard()
         tableView.delegate = self
         tableView.dataSource = self
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+//        sendBtnView.bindToKeyboard()
+        
         // get title from database//
         groupTitleLbl.text = group?.groupTitle
         DataService.instance.getEmailsFor(group: group!) { (returnedEmails) in
@@ -82,6 +88,9 @@ extension GroupFeedVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        guard let cell  = table else {
+//            statements
+//        }
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "groupFeedCell", for: indexPath) as? GroupFeedCell else { return UITableViewCell() }
         let message = groupMessages[indexPath.row]
         

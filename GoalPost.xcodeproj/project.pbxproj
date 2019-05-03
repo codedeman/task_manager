@@ -29,7 +29,6 @@
 		9D825922225D075A00293F69 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D825921225D075A00293F69 /* GoogleService-Info.plist */; };
 		9D825924225D148700293F69 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D825923225D148600293F69 /* CreateGroupsVC.swift */; };
 		9D825926225D154800293F69 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D825925225D154700293F69 /* UserCell.swift */; };
-		9D825928225D193200293F69 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D825927225D193200293F69 /* GroupFeedCell.swift */; };
 		9D8A2981223F403F00C65187 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8A2980223F403F00C65187 /* CalendarVC.swift */; };
 		9D8A2983223F4DD500C65187 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8A2982223F4DD500C65187 /* AboutVC.swift */; };
 		9D93EE6A221BBB0800CE3B73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D93EE69221BBB0800CE3B73 /* AppDelegate.swift */; };
@@ -41,9 +40,13 @@
 		9D93EE82221BBB0B00CE3B73 /* GoalPostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D93EE81221BBB0B00CE3B73 /* GoalPostTests.swift */; };
 		9D93EE8D221BBB0B00CE3B73 /* GoalPostUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D93EE8C221BBB0B00CE3B73 /* GoalPostUITests.swift */; };
 		9D93EE9E221BC70E00CE3B73 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D93EE9D221BC70E00CE3B73 /* GoalCell.swift */; };
+		9D94A951227CBDFE00E9675F /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D94A950227CBDFE00E9675F /* GroupFeedCell.swift */; };
+		9D94A95F227CC95300E9675F /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D94A95B227CC94E00E9675F /* FBSDKLoginKit.framework */; };
+		9D94A960227CC95300E9675F /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D94A95C227CC94F00E9675F /* FBSDKShareKit.framework */; };
+		9D94A961227CC95300E9675F /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D94A95D227CC95300E9675F /* FBSDKCoreKit.framework */; };
+		9D94A962227CC95300E9675F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D94A95E227CC95300E9675F /* Bolts.framework */; };
 		9D98680522390FA600656C10 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D98680422390FA600656C10 /* AuthVC.swift */; };
 		9D9868072239420100656C10 /* UserProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9868062239420100656C10 /* UserProfileVC.swift */; };
-		9DA2BD972230FC5000073B48 /* bb.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9DA2BD962230FC4F00073B48 /* bb.gif */; };
 		9DA2BD9E2230FFF600073B48 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA2BD9D2230FFF600073B48 /* UserNotifications.framework */; };
 		9DA2BDA02230FFF600073B48 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA2BD9F2230FFF600073B48 /* UserNotificationsUI.framework */; };
 		9DA2BDA32230FFF600073B48 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2BDA22230FFF600073B48 /* NotificationViewController.swift */; };
@@ -126,7 +129,6 @@
 		9D825921225D075A00293F69 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9D825923225D148600293F69 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		9D825925225D154700293F69 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
-		9D825927225D193200293F69 /* GroupFeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroupFeedCell.swift; path = ../../../breakpoint/breakpoint/View/GroupFeedCell.swift; sourceTree = "<group>"; };
 		9D8A2980223F403F00C65187 /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
 		9D8A2982223F4DD500C65187 /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
 		9D93EE66221BBB0800CE3B73 /* GoalPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,9 +146,13 @@
 		9D93EE8C221BBB0B00CE3B73 /* GoalPostUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalPostUITests.swift; sourceTree = "<group>"; };
 		9D93EE8E221BBB0B00CE3B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D93EE9D221BC70E00CE3B73 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		9D94A950227CBDFE00E9675F /* GroupFeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
+		9D94A95B227CC94E00E9675F /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		9D94A95C227CC94F00E9675F /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		9D94A95D227CC95300E9675F /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		9D94A95E227CC95300E9675F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		9D98680422390FA600656C10 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		9D9868062239420100656C10 /* UserProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileVC.swift; sourceTree = "<group>"; };
-		9DA2BD962230FC4F00073B48 /* bb.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bb.gif; sourceTree = "<group>"; };
 		9DA2BD9C2230FFF600073B48 /* MyContentExt.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyContentExt.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA2BD9D2230FFF600073B48 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		9DA2BD9F2230FFF600073B48 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
@@ -172,7 +178,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D94A962227CC95300E9675F /* Bolts.framework in Frameworks */,
+				9D94A95F227CC95300E9675F /* FBSDKLoginKit.framework in Frameworks */,
+				9D94A961227CC95300E9675F /* FBSDKCoreKit.framework in Frameworks */,
 				7C60443A31A3CE7C0107782B /* libPods-GoalPost.a in Frameworks */,
+				9D94A960227CC95300E9675F /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +277,10 @@
 				9D93EE8B221BBB0B00CE3B73 /* GoalPostUITests */,
 				9DA2BDA12230FFF600073B48 /* MyContentExt */,
 				9D93EE67221BBB0800CE3B73 /* Products */,
+				9D94A95E227CC95300E9675F /* Bolts.framework */,
+				9D94A95D227CC95300E9675F /* FBSDKCoreKit.framework */,
+				9D94A95B227CC94E00E9675F /* FBSDKLoginKit.framework */,
+				9D94A95C227CC94F00E9675F /* FBSDKShareKit.framework */,
 				74CE0DB04828206523083291 /* Frameworks */,
 				864150CF44F7ED51C83A92B9 /* Pods */,
 			);
@@ -333,7 +347,6 @@
 				9D5B27A3221C3EEF00F6BC51 /* CreateGoalVC.swift */,
 				9D82591D225CF15100293F69 /* FeedVC.swift */,
 				9D384351221D9A2E00F26468 /* FinishGoalVC.swift */,
-				9DA2BD962230FC4F00073B48 /* bb.gif */,
 				9D1AE66D222679C5008B6455 /* LoginVC.swift */,
 				9DFBA4BA22364BEC0039E2EA /* ProcessVC.swift */,
 				9D98680422390FA600656C10 /* AuthVC.swift */,
@@ -352,8 +365,8 @@
 			isa = PBXGroup;
 			children = (
 				9D825925225D154700293F69 /* UserCell.swift */,
-				9D825927225D193200293F69 /* GroupFeedCell.swift */,
 				9DE62D2A225464D900B6E13E /* FeedCell.swift */,
+				9D94A950227CBDFE00E9675F /* GroupFeedCell.swift */,
 				9D93EE9D221BC70E00CE3B73 /* GoalCell.swift */,
 				9DEA31722255CFB900C7636F /* GroupCell.swift */,
 				9D535D2B222C24EB00633991 /* Reminder.swift */,
@@ -518,7 +531,6 @@
 				9D93EE77221BBB0B00CE3B73 /* LaunchScreen.storyboard in Resources */,
 				9D93EE74221BBB0B00CE3B73 /* Assets.xcassets in Resources */,
 				9D825922225D075A00293F69 /* GoogleService-Info.plist in Resources */,
-				9DA2BD972230FC5000073B48 /* bb.gif in Resources */,
 				9D93EE6F221BBB0800CE3B73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,6 +597,7 @@
 				9D5B27A4221C3EF000F6BC51 /* CreateGoalVC.swift in Sources */,
 				9DFBA4BD22364C5C0039E2EA /* LineChart.swift in Sources */,
 				9D7C6569224872E8009FCFB8 /* CameraController.swift in Sources */,
+				9D94A951227CBDFE00E9675F /* GroupFeedCell.swift in Sources */,
 				9DE62D29225464C500B6E13E /* Message.swift in Sources */,
 				9D5A592F22380E3900D34CC8 /* ShadowView.swift in Sources */,
 				9DEA31782255CFD500C7636F /* GroupFeedVC.swift in Sources */,
@@ -613,7 +626,6 @@
 				9D1AE67422267E0B008B6455 /* Constrants.swift in Sources */,
 				9D384352221D9A2E00F26468 /* FinishGoalVC.swift in Sources */,
 				9D825920225CFACD00293F69 /* CreatePostVC.swift in Sources */,
-				9D825928225D193200293F69 /* GroupFeedCell.swift in Sources */,
 				9DC466DF2243FFC800901C8C /* RoundedButton.swift in Sources */,
 				9DEA31792255CFD500C7636F /* GroupsVC.swift in Sources */,
 				9D47429E223BDDC300981A56 /* CurrentUser.swift in Sources */,
@@ -744,7 +756,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -800,7 +812,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -819,8 +831,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PBBT599Q77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GoalPost/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -847,8 +863,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PBBT599Q77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GoalPost/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -66,7 +66,7 @@ class FinishGoalVC: UIViewController,UITextFieldDelegate {
         
         let components = Calendar.current.dateComponents([.hour, .minute], from: date)
    
-        _ = components.minute!
+        let minute = components.minute!
         
         
      
@@ -101,15 +101,15 @@ class FinishGoalVC: UIViewController,UITextFieldDelegate {
 
       
         
-//        scheduleNotification(inSeconds: TimeInterval(minute) , completion: { success in
-//
-//            if success{
-//                print("Successfully schedule notification")
-//            }
-//            else{
-//                print("Erro")
-//            }
-//        })
+        scheduleNotification(inSeconds: TimeInterval(minute) , completion: { success in
+
+            if success{
+                print("Successfully schedule notification")
+            }
+            else{
+                print("Erro")
+            }
+        })
     
     }
     
@@ -130,13 +130,13 @@ class FinishGoalVC: UIViewController,UITextFieldDelegate {
     
     func scheduleNotification(inSeconds:TimeInterval,completion:@escaping (_ Success:Bool)->()) {
         let myImage = "bb"
-        guard  let imageUrl = Bundle.main.url(forResource: myImage, withExtension: "gif") else {
-            completion(false)
-            return
-        }
+//        guard  let imageUrl = Bundle.main.url(forResource: myImage, withExtension: "gif") else {
+//            completion(false)
+//            return
+//        }
         var attachment:UNNotificationAttachment
         
-          attachment = try!UNNotificationAttachment(identifier: "myNotification", url:imageUrl , options: .none)
+//          attachment = try!UNNotificationAttachment(identifier: "myNotification", url:imageUrl , options: .none)
         //ONLY FOR EXTENSION
     
          let notif = UNMutableNotificationContent()
@@ -144,7 +144,7 @@ class FinishGoalVC: UIViewController,UITextFieldDelegate {
         notif.title = "New Notification"
         notif.subtitle =  goalType!.rawValue
         notif.body = goalDescription
-        notif.attachments  = [attachment]
+//        notif.attachments  = [attachment]
  
         
         let  notifTrigger =  UNTimeIntervalNotificationTrigger(timeInterval: inSeconds, repeats: false)

@@ -22,12 +22,14 @@ class AboutVC: UIViewController,WKNavigationDelegate,NVActivityIndicatorViewable
         startAnimating()
         
         let url = URL(string: "https://kienphamdev.blogspot.com/p/about-me.html")
-        let queue = DispatchQueue(label: "label")
-        queue.async {
+//        let queue = DispatchQueue(label: "label")
+//       DispatchQueue.async {
+        
+//        DispatchQueue.global(qos: .background).async {
             
+        
             if let unwrappedURL = url{
-                
-                
+
                 let request  = URLRequest(url: unwrappedURL)
                 let session  = URLSession.shared
                 let task  = session.dataTask(with: request){
@@ -36,7 +38,12 @@ class AboutVC: UIViewController,WKNavigationDelegate,NVActivityIndicatorViewable
                     
                     if err == nil{
                         DispatchQueue.main.async {
-                            self.webView.load(request)
+                            
+//                            if request != nil{
+                                self.webView.load(request)
+
+                            
+//                            }
 
                         }
                     }
@@ -48,7 +55,7 @@ class AboutVC: UIViewController,WKNavigationDelegate,NVActivityIndicatorViewable
                 task.resume()
                 
                 self.stopAnimating()
-            }
+//            }
             
         }
        

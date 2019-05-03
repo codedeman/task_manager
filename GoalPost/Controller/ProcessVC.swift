@@ -81,9 +81,10 @@ class ProcessVC: UIViewController,LineChartDelegate {
     
     @IBAction func backBtnWasPressed(_ sender: Any) {
         
-        
-        let mainController = self.storyboard?.instantiateViewController(withIdentifier: "Main")
-        self.present(mainController!, animated: true, completion: nil)
+        dismiss(animated: true, completion: nil)
+
+//        let mainController = self.storyboard?.instantiateViewController(withIdentifier: "Main")
+//        self.present(mainController!, animated: true, completion: nil)
     }
     
     func fetchCoreDataObjects() {

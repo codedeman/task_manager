@@ -80,7 +80,6 @@ extension GoalVC:UITableViewDelegate,UITableViewDataSource{
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "goalCell") as? GoalCell else {return UITableViewCell()}
         let goal = goals[indexPath.row]
         
-        print("what's wrong\(goal.goalProgress)")
         cell.configureCell(goal: goal)
         return cell
     }
