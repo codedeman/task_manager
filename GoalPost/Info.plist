@@ -3,19 +3,22 @@
 <plist version="1.0">
 <dict>
     
+    
     <key>CFBundleURLTypes</key>
     <array>
         <dict>
             <key>CFBundleURLSchemes</key>
             <array>
-                <string>fb418786712210511</string>
+                <string>fb601475217021569</string>
             </array>
         </dict>
     </array>
     <key>FacebookAppID</key>
-    <string>418786712210511</string>
+    <string>601475217021569</string>
     <key>FacebookDisplayName</key>
-    <string>GoalPost</string>
+    <string>taskmanager</string>
+    
+    
     <key>LSApplicationQueriesSchemes</key>
     <array>
         <string>fbapi</string>
@@ -23,6 +26,8 @@
         <string>fbauth2</string>
         <string>fbshareextension</string>
     </array>
+    
+    
     <key>NSPhotoLibraryUsageDescription</key>
     <string>Photo Library Access Warning</string>
 	<key>NSAppleScriptEnabled</key>

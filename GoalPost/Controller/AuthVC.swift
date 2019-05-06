@@ -14,19 +14,20 @@ import FBSDKLoginKit
 class AuthVC: UIViewController {
     
     
-    @IBOutlet var loginFacebookButton: UIButton!
+    @IBOutlet var loginFacebookButton: FBSDKLoginButton!
     override func viewDidAppear(_ animated: Bool) {
-        
         super.viewDidAppear(animated)
-        if Auth.auth().currentUser != nil{
-            
-            dismiss(animated: true, completion: nil)
-        }
+        
+
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
 
-        // Do any additional setup after loading the view.
+        if (FBSDKAccessToken.current() != nil) {
+            fetchUserProfile()
+        }
     }
     
     @IBAction func signInWithEmailBtnWasPressed(_ sender: Any) {
@@ -37,8 +38,34 @@ class AuthVC: UIViewController {
     @IBAction func googleSignInBtnWasPressed(_ sender: Any) {
     }
     
+    func fetchUserProfile()  {
+        
+        print("Getting profile")
+        print("FB version: \(FBSDKSettings.sdkVersion())")
+        print("Tokensssss:  \(String(describing: FBSDKAccessToken.current()?.tokenString))")
+        let parameters = ["fields": "email"]
+        
+        let graphRequest:FBSDKGraphRequest = FBSDKGraphRequest(graphPath: "me", parameters: parameters, httpMethod: "GET")
+        
+        graphRequest.start { (connection, result, error) -> Void in
+          
+          
+            if error != nil {
+                print("Error recieved: \(error.debugDescription)")
+                return
+            }
+            
+//            guard let email = result["email"] as! String else {
+//                return
+//            }
+//            print("Email: \(email)")
+
+        }
+        
+    }
     
-    @IBAction func facebookSignInWasPressed(_ sender: Any) {
+    
+    @IBAction func facebookSignInWasPressed(_ sender: AnyObject) {
         
         let LoginManager = FBSDKLoginManager()
         

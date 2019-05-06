@@ -26,7 +26,6 @@
 		9D7C6569224872E8009FCFB8 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7C6568224872E8009FCFB8 /* CameraController.swift */; };
 		9D82591E225CF15200293F69 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82591D225CF15100293F69 /* FeedVC.swift */; };
 		9D825920225CFACD00293F69 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82591F225CFACC00293F69 /* CreatePostVC.swift */; };
-		9D825922225D075A00293F69 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D825921225D075A00293F69 /* GoogleService-Info.plist */; };
 		9D825924225D148700293F69 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D825923225D148600293F69 /* CreateGroupsVC.swift */; };
 		9D825926225D154800293F69 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D825925225D154700293F69 /* UserCell.swift */; };
 		9D8A2981223F403F00C65187 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8A2980223F403F00C65187 /* CalendarVC.swift */; };
@@ -55,6 +54,7 @@
 		9DA3A464224CCCAF008FFC27 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA3A463224CCCAF008FFC27 /* ImageViewController.swift */; };
 		9DC466DD2243F96E00901C8C /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC466DC2243F96E00901C8C /* CreateAccountVC.swift */; };
 		9DC466DF2243FFC800901C8C /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC466DE2243FFC800901C8C /* RoundedButton.swift */; };
+		9DCBE7C4227DB7BD00F51931 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DCBE7C3227DB7BC00F51931 /* GoogleService-Info.plist */; };
 		9DE50D6322572DF400CEB01B /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE50D6222572DF400CEB01B /* Group.swift */; };
 		9DE5612A22463053005095B0 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5612922463053005095B0 /* CameraVC.swift */; };
 		9DE62D29225464C500B6E13E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE62D28225464C500B6E13E /* Message.swift */; };
@@ -126,7 +126,6 @@
 		9D7C6568224872E8009FCFB8 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		9D82591D225CF15100293F69 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		9D82591F225CFACC00293F69 /* CreatePostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
-		9D825921225D075A00293F69 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9D825923225D148600293F69 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		9D825925225D154700293F69 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		9D8A2980223F403F00C65187 /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
@@ -162,6 +161,7 @@
 		9DA3A463224CCCAF008FFC27 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		9DC466DC2243F96E00901C8C /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		9DC466DE2243FFC800901C8C /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		9DCBE7C3227DB7BC00F51931 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9DE50D6222572DF400CEB01B /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		9DE5612922463053005095B0 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
 		9DE62D28225464C500B6E13E /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
@@ -356,7 +356,7 @@
 				9DC466DC2243F96E00901C8C /* CreateAccountVC.swift */,
 				9DE5612922463053005095B0 /* CameraVC.swift */,
 				9D7C6568224872E8009FCFB8 /* CameraController.swift */,
-				9D825921225D075A00293F69 /* GoogleService-Info.plist */,
+				9DCBE7C3227DB7BC00F51931 /* GoogleService-Info.plist */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -529,8 +529,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D93EE77221BBB0B00CE3B73 /* LaunchScreen.storyboard in Resources */,
+				9DCBE7C4227DB7BD00F51931 /* GoogleService-Info.plist in Resources */,
 				9D93EE74221BBB0B00CE3B73 /* Assets.xcassets in Resources */,
-				9D825922225D075A00293F69 /* GoogleService-Info.plist in Resources */,
 				9D93EE6F221BBB0800CE3B73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
